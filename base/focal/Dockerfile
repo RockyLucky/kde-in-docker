@@ -22,7 +22,8 @@ RUN apt install -y dbus-x11
 
 
 ## Other Applications
-RUN apt install -y dolphin konsole
+RUN apt install -y dolphin konsole snap
+RUN snap install -y codium --classic 
 
 
 ## VNC
